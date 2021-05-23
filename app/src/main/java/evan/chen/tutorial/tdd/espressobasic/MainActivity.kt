@@ -39,10 +39,10 @@ class MainActivity : AppCompatActivity() {
                 builder.show()
             } else {
                 // 導至註冊成功頁
-                val intent = Intent(this, ResultActivity::class.java)
-                intent.putExtra("ID", loginId)
-
-                startActivity(intent)
+//                val intent = Intent(this, ResultActivity::class.java)
+//                intent.putExtra("ID", loginId)
+//
+//                startActivity(intent)
             }
         }
     }
